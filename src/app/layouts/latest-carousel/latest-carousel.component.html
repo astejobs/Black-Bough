@@ -1,0 +1,176 @@
+
+<!-- Man Banner Section Begin -->
+<section class="man-banner spad">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-8">
+              <div class="filter-control">
+                  <ul>
+                      <li class="active">Notebooks</li>
+                      <li>Classic</li>
+                      <li>Pens</li>
+                      <li>Accessories</li>
+                  </ul>
+              </div>
+              <div class="product-slider owl-carousel">
+                  <div class="product-item">
+                      <div class="pi-pic">
+                          <img src="assets/images/33.jpg" alt="">
+                          <div class="sale">Sale</div>
+                          <div class="icon">
+                              <i class="icon_heart_alt"></i>
+                          </div>
+                          <ul>
+                              <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a routerLink="product">+ Quick View</a></li>
+                              <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="pi-text">
+                          <div class="catagory-name">Coat</div>
+                          <a href="#">
+                              <h5 class="text-white">Pure Pineapple</h5>
+                          </a>
+                          <div class="product-price">
+                              $14.00
+                              <span>$35.00</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                      <div class="pi-pic">
+                          <img src="assets/images/5.png" alt="">
+                          <div class="icon">
+                              <i class="icon_heart_alt"></i>
+                          </div>
+                          <ul>
+                              <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a routerLink="product">+ Quick View</a></li>
+                              <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="pi-text">
+                          <div class="catagory-name">Item</div>
+                          <a href="#">
+                              <h5 class="text-white">Brand</h5>
+                          </a>
+                          <div class="product-price">
+                              $13.00
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                      <div class="pi-pic">
+                          <img src="assets/images/7.png" alt="">
+                          <div class="icon">
+                              <i class="icon_heart_alt"></i>
+                          </div>
+                          <ul>
+                              <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a routerLink="product">+ Quick View</a></li>
+                              <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="pi-text">
+                          <div class="catagory-name">Product</div>
+                          <a href="#">
+                              <h5 class="text-white">Pure Brand</h5>
+                          </a>
+                          <div class="product-price">
+                              $34.00
+                          </div>
+                      </div>
+                  </div>
+                  <div class="product-item">
+                      <div class="pi-pic">
+                          <img src="assets/images/8.png" alt="">
+                          <div class="icon">
+                              <i class="icon_heart_alt"></i>
+                          </div>
+                          <ul>
+                              <li class="w-icon active"><a href="#"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a routerLink="product">+ Quick View</a></li>
+                              <li class="w-icon"><a href="#"><i class="fa fa-random"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="pi-text">
+                          <div class="catagory-name">Name</div>
+                          <a href="#">
+                              <h5 class="text-white">Iten Desc</h5>
+                          </a>
+                          <div class="product-price">
+                              $34.00
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+              <div class="product-large set-bg m-large" data-setbg="assets/images/11.jpg" style="height: 450px;">
+                  <h2>Category</h2>
+                  <a routerLink="shop">Discover More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Man Banner Section End -->
+<!-- Man Banner Section Begin -->
+<!-- <section class="man-banner spad" id="men">
+  <div class="container-fluid">
+      <div class="row">
+          <div class="col-lg-8">
+              <div class="filter-control">
+                  <ul>
+                      <li class="active">Clothings</li>
+                      <li>HandBag</li>
+                      <li>Shoes</li>
+                      <li>Accessories</li>
+                  </ul>
+              </div>
+              <div class="product-slider">
+                <owl-carousel-o [options]="customOptions">
+
+                  <ng-container *ngFor="let slide of apiData">
+                    <ng-template class="slide" carouselSlide [id]="slide.id" [dotContent]="slide.id">
+                  <div class="product-item mx-2">
+                      <div class="pi-pic">
+
+                          <img [src]="slide.url" [alt]="slide.id" [title]="slide.id">
+                          <div class="sale">Sale</div>
+                          <div class="icon">
+                              <i class="icon_heart_alt"></i>
+                          </div>
+                          <ul>
+                              <li class="w-icon active"><a routerLink="../product"nk="product"><i class="icon_bag_alt"></i></a></li>
+                              <li class="quick-view"><a routerLink="../product"nk="product">+ Quick View</a></li>
+                              <li class="w-icon"><a routerLink="../product"nk="product"><i class="fa fa-random"></i></a></li>
+                          </ul>
+                      </div>
+                      <div class="pi-text">
+                          <div class="catagory-name">Coat</div>
+                          <a routerLink="../product"nk="product">
+                              <h5>Pure Pineapple</h5>
+                          </a>
+                          <div class="assets/product-price">
+                              $14.00
+                              <span>$35.00</span>
+                          </div>
+                      </div>
+                  </div>
+                </ng-template>
+              </ng-container>
+
+            </owl-carousel-o>
+              </div>
+          </div>
+          <div class="col-lg-3 offset-lg-1">
+              <div class="product-large  m-large" style="background-image: url(https://previews.123rf.com/images/gyn9037/gyn90371401/gyn9037140100024/24911297-lady-pushing-a-shopping-cart-in-the-supermarket-.jpg); background-size: cover; height: 430px;" >
+                  <h2>Men’s</h2>
+                  <a routerLink="../product"nk="product">Discover More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+</section> -->
+<!-- Man Banner Section End -->

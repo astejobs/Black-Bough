@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: 12px !important;
+  height: 100%;
+}
+a{
+  text-decoration: none !important;
+}
+ ::ng-deep .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+  color: #252525;
+  font-size: 30px !important;
+}
+
+.filter-control ul li:before {
+  background: #fafafa;
+}
+
+.filter-widget .fw-title {
+  color: #e2e2e2;
+}
+.filter-widget .filter-catagories li a {
+  color: #d4c1c1;
+}
+.filter-widget .fw-brand-check .bc-item label {
+  color: rgb(240, 231, 219);
+}
+.filter-widget .fw-tags a {
+  color: #ebebeb;
+  border: 1px solid #636363;
+}

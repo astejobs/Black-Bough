@@ -1,0 +1,47 @@
+.nav-item .nav-menu li a {
+  font-size: 12px !important;
+  font-weight: 500 !important;
+}
+a {
+  text-decoration: none;
+}
+
+.nav-item .nav-depart .depart-btn span {
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
+.header-section{
+  background-color: #252525;//#2C3335;
+  color: #ffffff;
+}
+.inner-header .advanced-search .input-group input {
+  background-color: #252525;
+}
+.cart-hover .product-selected p{
+  color: #fdfdfd;
+}
+.cart-hover .product-selected h6{
+  color: #fdfdfd;
+}
+.header-top {
+  border-bottom: 1px solid #2C3335;
+}
+.header-top .ht-left .mail-service {
+  border-right: 1px solid #2C3335;
+}
+.header-top .ht-right .login-panel {
+  border-left: 1px solid #2C3335;
+}
+.inner-header .advanced-search {
+  border: 1px solid #2C3335;
+}
+.header-top .ht-right .top-social {
+  border-right: 1px solid #2C3335;
+}
+/* .nav-item .nav-menu li.active a {
+  background: #fdfdfd;
+  color: #000;
+} */
+.nav-item {
+  background: #2C3335;
+}

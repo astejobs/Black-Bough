@@ -1,0 +1,157 @@
+   <!-- Header Section Begin -->
+   <header class="header-section py-0">
+    <div class="header-top py-0">
+        <div class="container py-0">
+            <div class="ht-left">
+                <div class="mail-service text-white">
+                    <i class=" fa fa-envelope"></i>
+                    blackbough@gmail.com
+                </div>
+                <div class="phone-service text-white">
+                    <i class=" fa fa-phone"></i>
+                    +78868787878
+                </div>
+            </div>
+            <div class="ht-right text-white">
+                <a routerLink="login" class="login-panel text-white"><i class="fa fa-user" style="color: white;"></i>Login</a>
+               <!--  <div class="lan-selector">
+                    <select class="language_drop" name="countries" id="countries" style="width:300px;">
+                        <option value='yt' data-image="assets/img/flag-1.jpg" data-imagecss="flag yt"
+                            data-title="English">English</option>
+                        <option value='yu' data-image="assets/img/flag-2.jpg" data-imagecss="flag yu"
+                            data-title="Bangladesh">German </option>
+                    </select>
+                </div> -->
+                <div class="top-social text-white">
+                    <a href="#"><i class="ti-facebook" style="color: white;"></i></a>
+                    <a href="#"><i class="ti-twitter-alt" style="color: white;"></i></a>
+                    <a href="#"><i class="ti-linkedin" style="color: white;"></i></a>
+                    <a href="#"><i class="ti-pinterest" style="color: white;"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container py-0">
+        <div class="inner-header py-0">
+            <div class="row py-0">
+                <div class="col-lg-2 col-md-2">
+                    <div class="logo">
+                        <a href=""> <!-- <h5>Black Bough</h5> -->
+                            <img src="assets/images/main-logo.png" alt="BLACK BOUGH">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-7">
+                    <div class="advanced-search text-white">
+                        <button type="button" class="category-btn text-white">All Categories</button>
+                        <div class="input-group">
+                            <input type="text" placeholder="What do you need?">
+                            <button type="button"><i class="ti-search"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-right col-md-3">
+                    <ul class="nav-right text-white">
+                        <li class="heart-icon">
+                            <a href="#">
+                                <i class="icon_heart_alt" style="color: white;"></i>
+                                <span>1</span>
+                            </a>
+                        </li>
+                        <li class="cart-icon">
+                            <a routerLink="">
+                                <i class="icon_bag_alt" style="color: white;"></i>
+                                <span>3</span>
+                            </a>
+                            <div class="cart-hover bg-dark text-white">
+                                <div class="select-items text-white">
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td class="si-pic"><img src="assets/img/select-product-1.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected text-white">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6 class="text-white">Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="ti-close" (click)="removeItemFromCart()" style="color: white;"></i>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="si-pic"><img src="assets/img/select-product-2.jpg" alt=""></td>
+                                                <td class="si-text">
+                                                    <div class="product-selected text text-white">
+                                                        <p>$60.00 x 1</p>
+                                                        <h6 class="text-white">Kabino Bedside Table</h6>
+                                                    </div>
+                                                </td>
+                                                <td class="si-close">
+                                                    <i class="ti-close" style="color: white;"></i>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="select-total text-white">
+                                    <span class="text-white">total:</span>
+                                    <h5 class="text-white">$120.00</h5>
+                                </div>
+                                <div class="select-button">
+                                    <a routerLink="shopping-cart" class="primary-btn view-card">VIEW CART</a>
+                                    <a routerLink="checkout" class="primary-btn checkout-btn">CHECK OUT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="cart-price text-white">$150.00</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-item py-0">
+        <div class="container py-0 text-white">
+            <div class="nav-depart">
+                <div class="depart-btn text-white">
+                    <i class="ti-menu"></i>
+                    <span>All departments</span>
+                    <ul class="depart-hover text-white">
+                        <li class="active"><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Category 1</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="nav-menu mobile-menu text-white">
+                <ul>
+                    <li class="active" ><a routerLink="/home">Home</a></li>
+                   <!--  <li><a routerLink="shopping-cart">Shopping</a></li> -->
+                    <li><a routerLink="">Collection</a>
+                        <ul class="dropdown">
+                            <li><a href="#snakes">Snakes</a></li>
+                            <li><a href="#drinks">Cold Drinks</a></li>
+                            <li><a href="#">Others</a></li>
+                        </ul>
+                    </li>
+                    <li><a routerLink="shop">Shop Now</a></li>
+                    <li><a routerLink="contact">Contact</a></li>
+                    <li><a href="#">Important Links</a>
+                        <ul class="dropdown">
+                            <li><a routerLink="product">Product Details</a></li>
+                            <li><a routerLink="shopping-cart">Shopping Cart</a></li>
+                            <li><a routerLink="checkout">Checkout</a></li>
+                            <li><a routerLink="../admin/dashboard">Admin</a></li>
+                            <li><a routerLink="register">Register</a></li>
+                            <li><a routerLink="login">Login</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </div>
+</header>
+<!-- Header End -->
